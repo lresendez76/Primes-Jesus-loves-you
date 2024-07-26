@@ -1,0 +1,43 @@
+---
+title: "PRIMES"
+author: "Reverend Resendez"
+date: "2024-07-26"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+---
+title: "Primes"
+author: "Right Reverend"
+date: "summer 2024"
+output: html_document
+---
+
+
+Jesus Loves You Doctor Jay
+
+
+
+
+```{r}
+is_prime <- function(n) {if (n <= 1) return(FALSE)
+for (i in 2:sqrt(n)) {if (n %% i == 0) return(FALSE)}
+ return(TRUE)}
+
+prime_numbers <- which(sapply(1:1000, is_prime))
+print(prime_numbers)
+```
+
+
+
+
+
+
+
+
+
+
